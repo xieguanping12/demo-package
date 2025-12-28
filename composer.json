@@ -1,0 +1,23 @@
+{
+  "name": "xieguanping12/demo-package",
+  "description": "A simple demo package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Xieguanping12\\DemoPackage\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "谢观平",
+      "email": "diudiu1148@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9/0"
+  }
+}
